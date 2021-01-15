@@ -1,0 +1,15 @@
+.title { 
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+.tam{    
+    width: 250px;
+}
+.card {
+    font-size: 1em;
+    padding: 15px;
+    border: none;
+    border-radius: .28571429rem;
+    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+    margin:10px;
+}

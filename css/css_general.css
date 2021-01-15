@@ -1,0 +1,126 @@
+@charset "UTF-8";
+@font-face{
+    font-family: 'Sulphur Point';
+    src: url('fuentes/SulphurPoint-Regular.ttf');
+}
+*{
+    font-family: 'Sulphur Point';
+}
+/*header{
+    height:100px;
+}*/
+footer{
+    height: 60px;
+}
+@media (max-width:701px){
+    body{
+        margin-top: 150px;
+        margin-bottom: 60px;
+    }
+    /*TAMAÑO DE LAS FOTOS DEL CAROUSEL*/
+    .tamCa{
+        height: 250px;
+    }
+    /*EL CONTAINER DEL INDEX*/
+    .inde{
+        margin-top: 150px;
+        margin-bottom: 10px;
+    }
+    /*LOGOTIPO*/
+    #icono{
+        width: 30px;
+        height: 30px;
+    }
+    
+    button{
+        border: none;
+    }
+    #perfil{
+        background-repeat: no-repeat;
+        background-size: 40px; 
+        width: 40px; 
+        height: 40px;
+    }
+    #ampliar{
+        width: 66px;
+        height: 66px;
+    }
+    /*boton de agrandar*/
+    #agrandar{
+        background-image: url('../img/iconos/agrandar.png');
+        background-size: 20px;
+        background-repeat: no-repeat;
+        height: 20px;
+    }
+    #editar{
+        background-image: url('../img/iconos/editar.png');
+        background-size: 30px;
+        background-repeat: no-repeat;
+        width: 30px;
+        height: 30px;
+    }
+    #eliminar{
+        background-image: url('../img/iconos/borrar.png');
+        background-size: 30px;
+        background-repeat: no-repeat;
+        width: 30px;
+        height: 30px;
+    }
+}
+@media (min-width:701px) {
+
+    body{
+        margin-top: 100px;
+        margin-bottom: 60px;
+    }
+    /*EL CONTAINER DEL INDEX*/
+    .inde{
+        margin-top: 90px;
+        margin-bottom: 10px;
+    }
+
+    /*TAMAÑO DE LAS FOTOS DEL CAROUSEL*/
+    .tamCa{
+        height: 650px;
+    }
+    button{
+        border: none;
+    }
+    /*LOGOTIPO*/
+    #icono{
+        width: 50px;
+        height: 50px;
+    }
+    #perfil{
+        background-repeat: no-repeat;
+        background-size: 80px; 
+        width: 80px; 
+        height: 80px;
+    }
+    #ampliar{
+        width: 66px;
+        height: 66px;
+    }
+    /*boton de agrandar*/
+    #agrandar{
+        background-image: url('../img/iconos/agrandar.png');
+        background-size: 30px;
+        background-repeat: no-repeat;
+        width: 30px;
+        height: 30px;
+    }
+    #editar{
+        background-image: url('../img/iconos/editar.png');
+        background-size: 30px;
+        background-repeat: no-repeat;
+        width: 30px;
+        height: 30px;
+    }
+    #eliminar{
+        background-image: url('../img/iconos/borrar.png');
+        background-size: 30px;
+        background-repeat: no-repeat;
+        width: 30px;
+        height: 30px;
+    }
+}
